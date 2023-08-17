@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(57, 55, 55);
+  color: white;
+}
+.header {
+  height: 125vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(0, 0, 1, 0.721),
+      rgba(22, 21, 21, 0.638)
+    ),
+    url(images/header-image.png);
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 150px;
+  height: 40px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+nav img {
+  width: 90px;
+  height: 25px;
+  margin-left: 20px;
+}
+.buttons {
+  margin-right: 20px;
+  gap: 15px;
+}
+#sign-in {
+  width: 76px;
+  height: 32px;
+  padding: 4px 16px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+#english {
+  width: 100px;
+  height: 32px;
+  padding: 6px 20px;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  border: 1px solid white;
+  margin-right: 15px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.container {
+  text-align: center;
+  margin-top: 180px;
+}
+.heading {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 52px;
+}
+.text-1 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.text-2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.mail-input {
+  width: 375px;
+  height: 40px;
+  background: transparent;
+  border: solid 0.2px rgba(255, 255, 255, 0.338);
+  border-radius: 3px;
+  padding-left: 8px;
+  margin-top: 15px;
+  color: white;
+}
+::placeholder {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.get-started-btn {
+  height: 40px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-left: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+}
+.input-taken {
+  justify-content: center;
+  display: flex;
+}
+.get-started-btn:hover {
+  background-color: #9b050c;
+}
+.feature-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.feature {
+  margin-top: 8px;
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.feature-img {
+  height: 350px;
+  width: 450px;
+}
+.feature-2-text {
+  margin-left: 40px;
+}
+footer {
+  margin-top: 8px;
+  width: 100%;
+  background-color: black;
+  height: 70vh;
+}
+.footer-content
+{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   font-family: "Roboto", sans-serif;
+   margin-left: -200px;
+} 
+.list>ul>li 
+{
+    margin-top: 12px;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(169, 165, 165);
+    font-size: 14px;
+}
+#Netflix-India
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;   
+    color: rgb(169, 165, 165);
+    margin-top: 100px;
+    margin-left: 50px;
+    font-weight: 400;
+}
